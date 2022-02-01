@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bejelentkezés</title>
+    <link rel="stylesheet" href="in.css">
+</head>
+<body>
+    <div id = "header">
+        <a href = "/kezdolap" id = "jump_Main_Site"><h1>BlogHub</h1></a>
+    </div>
+    <div id = "title">
+        <h1>Regisztrácio</h1>
+    </div>
+    <div id = "conteiner">
+        <label class = "label">Vezetéknév</label>
+        <br />
+        <input class = "input" type = "text" name = "first_Name" id = "first_Name" />
+        <br />
+        <label class = "label">Keresznév</label>
+        <br />
+        <input class = "input" type = "text" name = "last_Name" id = "last_Name" />
+        <br />
+        <label class = "label">E-mail cím</label>
+        <br />
+        <input class = "input" type = "text" name = "mail" id = "mail" />
+        <br />
+        <label class = "label">Jelszó</label>
+        <br />
+        <input class = "input" type = "password" name = "password" id = "password" />
+        <br />
+        <label class = "label">Jelszó újra</label>
+        <br />
+        <input class = "input" type = "password" name = "re_Password" id = "re_Password" />
+        <br />
+        <label class = "error_Label" id = "error"></label>
+        <br />
+        <label class = "error_Label" id = "sucessful"></label>
+        <br />
+        <label class = "label">Van már fiókod? <a href="/bejelentkezes">Lépj be!</a></label>
+        <br />
+        <input type = "button" onclick = "registraion()" value = "Regisztráció" class = "input" />
+    </div>
+</body>
+<script src = "registration.js"></script>
+</html>
